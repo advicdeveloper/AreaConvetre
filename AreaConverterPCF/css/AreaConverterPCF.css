@@ -1,0 +1,23 @@
+.area-converter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.area-converter .ms-TextField {
+    flex-grow: 1;
+}
+
+.area-converter .ms-Dropdown-container {
+    flex-basis: 120px;
+    flex-shrink: 0;
+}
+
+.area-info-label {
+    font-size: 10px;
+    color: #666;
+    margin-top: 4px;
+}
